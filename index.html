@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge | Encriptador de Texto</title>
+
+    <!-- import styles -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- import inter font from google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- header and title section-->
+        <header class="main-head">
+            <h1 class="main-title">Encriptador de texto</h1>
+
+            <div class="icons-container">
+                <span>By José Reynoso </span>
+                <a href="https://github.com/Joreynoso?tab=repositories" target="_blank"><img class="icon-img"
+                        src="img/github-line.png" alt="github"></a>
+                <a href="https://www.instagram.com/joseoscarey/" target="_blank"><img class="icon-img"
+                        src="img/instagram-line.png" alt="instagram"></a>
+                <a href="https://www.linkedin.com/in/joreynoso/" target="_blank"><img class="icon-img"
+                        src="img/linkedin-line.png" alt="linkedin"></a>
+            </div>
+        </header>
+
+        <!-- main content -->
+        <article class="content">
+            <div class="content-container">
+                <textarea id="capture-text" class="capture-text" name="textarea" rows="10" wrap="hard"
+                    placeholder="Ingrese su texto aqui.." autofocus></textarea>
+            </div>
+        </article>
+
+        <!-- side content and image -->
+        <aside class="side">
+            <div class="image-container shadow">
+                <img id="image" src="img/Muñeco.png" alt="muñeco">
+                <p class="title">Ningún mensaje fue encontrado</p>
+                <textarea class="subtitle text-center" name=""
+                    cols="30">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                <button class="button-empty hidden button-copy">copiar mensaje</button>
+            </div>
+        </aside>
+
+        <!-- call to action section -->
+        <div class="actions">
+            <div class="rules-container">
+                <img src="img/Vector.png" alt="alert">
+                <p class="rules">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="buttons-container">
+                <button class="button-fill encriptar">Encriptar</button>
+                <button class="button-empty desencriptar">Desencriptar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- import app js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
